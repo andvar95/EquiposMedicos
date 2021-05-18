@@ -9,7 +9,20 @@
 
 .navbar-registro {
     background-color: #33A1FD;
-    padding: 2% 5% 5% 5%;
+    padding: 0% 5% 5% 5%;
+}
+
+.opcionesRegistro {
+    width: 30%;
+    float: right;
+    padding-top: 1%;
+}
+
+.opcionesRegistro a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0% 4%;
+    color: white;
 }
 
 h1{
