@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
+  background-color: white;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.itemSide {
+  padding-left: 10px;
+}
+
+.itemSide {
+  box-sizing: content-box;
+}
+
+.nav-pills a:hover {
+  color: white;
+  width: 200;
+  height: 55px;
+  box-shadow: 0px 4px 8px 0px white;
+  border-radius: 10px;
+}
+
+.nav-link:focus {
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  border-radius: 10px;
+}
+
+.colContentPage {
+  min-width: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.row .contentPage {
+  color: black;
+}
+
+.body-web {
+  padding: 5%;
+}
+
+.userIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.navigationB {
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 4px 8px 0px gray;
+}
+
+.navigationB .navbar {
+  border-radius: 0 0 10px 10px;
+}
+
+.sideBDiv {
+  background-color: #00e0da;
+}
+
+i {
+  color: #ffffff;
+}
+
+.nav-link {
+  color: white;
+}
+
+/*********************/
+
+.showQuan {
+  font-weight: bold;
+  text-align: center;
+}
+
+.divQuant {
+  display: inline-table;
+  margin: auto;
+  height: 80px;
+  width: 250px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px 0px gray;
+  margin: 5%;
+}
+
+.dropdown {
+  margin-right: 5%;
+  color: black;
+}
+
+.dropdown-menu {
+  padding-right: 5%;
+  background-color: #00e0da;
+  color: white;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.colContentPage {
+  position: static;
+}
+
+@media (max-width: 478px) {
+  .colContentPage {
+    padding-left: 10%;
+  }
+}
