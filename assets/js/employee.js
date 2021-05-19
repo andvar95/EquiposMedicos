@@ -5,8 +5,8 @@ const databaseClinicas = [
   { id: 4, nombre: "Clinica 3", descripcion: "Direccion 1" },
   { id: 5, nombre: "Clinica 3", descripcion: "Direccion 1" },
   { id: 6, nombre: "Clinica 3", descripcion: "Direccion 1" },
-  { id: 6, nombre: "Clinica 3", descripcion: "Direccion 1" },
-  { id: 6, nombre: "Clinica 3", descripcion: "Direccion 1" },
+  { id: 7, nombre: "Clinica 3", descripcion: "Direccion 1" },
+  { id: 8, nombre: "Clinica 3", descripcion: "Direccion 1" },
 ];
 
 const databaseEquipos = [
@@ -17,6 +17,10 @@ const databaseEquipos = [
     estado: "No funcionado",
   },
   { id: 3, nombre: "Producto 3", estado: "Funcionado" },
+  { id: 4, nombre: "Producto 3", estado: "Funcionado" },
+  { id: 5, nombre: "Producto 3", estado: "Funcionado" },
+  { id: 6, nombre: "Producto 3", estado: "Funcionado" },
+  { id: 7, nombre: "Producto 3", estado: "Funcionado" },
 ];
 
 /* Functions*/
@@ -136,9 +140,15 @@ const showInfo = (evt) => {
   };
 };
 
+
 /*TABLAS */
+
+
+/*Cuerpos de tablas */
 $tablaClinicas = document.getElementById("tablaClinicas");
 $tablaEquipos = document.getElementById("tablaEquipos");
+
+
 
 /* hACIENDO TABLAS*/
 /* CLINICAS*/
@@ -175,9 +185,9 @@ databaseEquipos.forEach((el) => {
   htmlEquipos += `
         <tr>
                     <th scope="row">${el.id}</th>
-                    <th > ${el.nombre}</th>
-                    <th >${el.estado}</th>
-                    <th> <button onclick="registerAction()" class="btn btn-primary"><i class="fas fa-align-justify"></i></button></th>
+                    <td > ${el.nombre}</td>
+                    <td >${el.estado}</td>
+                    <td> <button onclick="registerAction()" class="btn btn-primary"><i class="fas fa-align-justify"></i></button></td>
                     
         </tr>
         
