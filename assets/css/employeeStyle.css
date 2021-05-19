@@ -30,8 +30,14 @@
 
 .customNavbar li {
     padding:10px 20px;
+}
+
+.user{
+  padding:0 5px;
 
 }
+
+
 
 
 
@@ -42,16 +48,8 @@
     border-radius:10px;
   
 }
-.tablaEquipos, .tablaClinicas{
-  max-height:50px;
-  overflow:auto;
- 
- 
-}
 
-.rowClinicas{
-  cursor:pointer;
-}
+
 
 ul{
     list-style: none;
