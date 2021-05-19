@@ -11,6 +11,7 @@
 .navbar-registro {
     background-color: #33A1FD;
     padding: 0% 5% 5% 5%;
+    color:white;
 }
 
 .opcionesRegistro {
@@ -36,4 +37,18 @@ h1{
     background-color: white;
     color: #33A1FD !important;
     border-radius: 15px;
+}
+
+.user {
+   color:white;
+    padding: 0 5px;
+}
+
+footer {
+    width:100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #33A1FD;
+    color: white;
 }
