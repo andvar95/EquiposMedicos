@@ -18,171 +18,405 @@
     <title>Control Panel</title>
   </head>
   <body>
-    <div class="sideB">
-      <div class="container-fluid">
-        <div class="row flex-nowrap">
-          <div
-            class="
-              col-auto col-md-3 col-xl-2
-              px-sm-2 px-0
-              position-fixed
-              sideBDiv
-            "
-          >
+    <div class="row rowSideBar">
+      <div class="col col-auto col-xl-2 col-md-3 col-sm-2 colSideBar">
+        <div class="row">
+          <div class="row flex-nowrap">
             <div
               class="
-                d-flex
-                flex-column
-                align-items-center align-items-sm-start
-                px-3
-                pt-2
-                text-white
-                min-vh-100
+                col-auto col-md-3 col-xl-2
+                px-sm-2 px-0
+                position-fixed
+                sideBDiv
               "
             >
-              <a
-                href="/"
+              <div
                 class="
                   d-flex
-                  align-items-center
-                  pb-3
-                  mb-md-0
-                  me-md-auto
-                  text-white text-decoration-none
-                "
-              >
-                <span class="fs-5 d-none d-sm-inline">Logo Empresa</span>
-              </a>
-              <ul
-                class="
-                  nav nav-pills
                   flex-column
-                  mb-sm-auto mb-0
                   align-items-center align-items-sm-start
+                  px-3
+                  pt-2
+                  text-white
+                  min-vh-100
                 "
-                id="menu"
               >
-                <li class="nav-item">
-                  <a href="#contentPage" class="nav-link align-middle px-0">
-                    <i class="fs-4 bi-house"></i>
-                    <span class="ms-1 d-none d-sm-inline">Home</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link px-0 align-middle">
-                    <i class="fs-4 bi bi-building"></i>
-                    <span class="ms-1 d-none d-sm-inline">Clinica</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link px-0 align-middle">
-                    <i class="fs-4 bi-people"></i>
-                    <span class="ms-1 d-none d-sm-inline">Empleados</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link px-0 align-middle">
-                    <i class="fs-4 bi bi-tv"></i>
-                    <span class="ms-1 d-none d-sm-inline">Equipos</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link px-0 align-middle">
-                    <i class="fs-4 bi bi-tools"></i>
-                    <span class="ms-1 d-none d-sm-inline">Repuestos</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="#submenu1"
-                    data-bs-toggle="collapse"
-                    class="nav-link px-0 align-middle"
-                  >
-                    <i class="fs-4 bi bi-table"></i>
-                    <span class="ms-1 d-none d-sm-inline">Historial</span></a
-                  >
-                  <ul
-                    class="collapse nav flex-column ms-1"
-                    id="submenu1"
-                    data-bs-parent="#menu"
-                  >
-                    <li class="w-100">
-                      <a href="#" class="nav-link px-0">
-                        <span class="d-none d-sm-inline">Hoja de Vida</span></a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#" class="nav-link px-0 align-middle">
-                    <i class="fs-4 bi-people"></i>
-                    <span class="ms-1 d-none d-sm-inline">Empleados</span>
-                  </a>
-                </li>
-              </ul>
-              <hr />
-            </div>
-          </div>
-        </div>
-        <div id="contentPage" class="col contentPage">
-          <div class="navigationB">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarTogglerDemo02"
-                  aria-controls="navbarTogglerDemo02"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
+                <a
+                  href="/"
+                  class="
+                    d-flex
+                    align-items-center
+                    pb-3
+                    mb-md-0
+                    me-md-auto
+                    text-white text-decoration-none
+                  "
                 >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link disabled"
-                        href="#"
-                        tabindex="-1"
-                        aria-disabled="true"
-                        >Disabled</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </div>
-
-          <div class="body-web container">
-            <div class="showQuan">
-              <div class="row">
-                <div class="col"><div class="divQuant">obj 1</div></div>
-                <div class="col"><div class="divQuant">obj 2</div></div>
-                <div class="col"><div class="divQuant">obj 3</div></div>
-              </div>
-              <div class="row">
-                <div class="col"><div class="divQuant">obj 4</div></div>
-                <div class="col"><div class="divQuant">obj 5</div></div>
-                <div class="col"><div class="divQuant">obj 6</div></div>
+                  <span class="fs-5 d-none d-sm-inline">Logo Empresa</span>
+                </a>
+                <ul
+                  class="
+                    nav nav-pills
+                    flex-column
+                    mb-sm-auto mb-0
+                    align-items-center align-items-sm-start
+                  "
+                  id="menu"
+                >
+                  <li class="nav-item">
+                    <div class="itemSide">
+                      <a href="#contentPage" class="nav-link align-middle px-0">
+                        <i class="fs-4 bi-house"></i>
+                        <span class="ms-1 d-none d-sm-inline">Home</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="itemSide">
+                      <a href="#" class="nav-link px-0 align-middle">
+                        <i class="fs-4 bi bi-building"></i>
+                        <span class="ms-1 d-none d-sm-inline">Clinica</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="itemSide">
+                      <a href="#" class="nav-link px-0 align-middle">
+                        <i class="fs-4 bi-people"></i>
+                        <span class="ms-1 d-none d-sm-inline">Empleados</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="itemSide">
+                      <a href="#" class="nav-link px-0 align-middle">
+                        <i class="fs-4 bi bi-tv"></i>
+                        <span class="ms-1 d-none d-sm-inline">Equipos</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="itemSide">
+                      <a href="#" class="nav-link px-0 align-middle">
+                        <i class="fs-4 bi bi-tools"></i>
+                        <span class="ms-1 d-none d-sm-inline">Repuestos</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="itemSide">
+                      <a href="#" class="nav-link px-0 align-middle">
+                        <i class="fs-4 bi bi-calendar3"></i>
+                        <span class="ms-1 d-none d-sm-inline">Historial</span>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+                <hr />
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col col-auto col-xl-2 col-md-3 col-sm-2 separador"></div>
+      <div class="col col-auto col-xl-10 col-md-9 col-sm-10 colContentPage">
+        <div class="row">
+          <div class="col">
+            <div class="row rowNavBarTop">
+              <div
+                class="col colNavBarTop col-auto col-xl-12 col-md-12 col-sm-12"
+              >
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="container-fluid">
+                    <div class="col-md-8">
+                      <div class="search">
+                        <i class="bi bi-search"></i>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Search"
+                        />
+                        <button class="btn btn-primary">Search</button>
+                      </div>
+                    </div>
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                      class="collapse navbar-collapse"
+                      id="navbarSupportedContent"
+                    >
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+                      <form class="d-flex">
+                        <div class="btn-group">
+                          <button
+                            type="button"
+                            class="btn btn-success dropdown-toggle btnLogout"
+                            data-bs-toggle="dropdown"
+                            data-bs-display="static"
+                            aria-expanded="false"
+                          >
+                            <i class="fs-4 bi bi-gear-fill"></i>
+                          </button>
+                          <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                              <button class="dropdown-item" type="button">
+                                Action
+                              </button>
+                            </li>
+                            <li>
+                              <button class="dropdown-item" type="button">
+                                Another action
+                              </button>
+                            </li>
+                            <li>
+                              <button class="dropdown-item" type="button">
+                                Something else here
+                              </button>
+                            </li>
+                          </ul>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <div class="row rowContentPage">
+              <div class="col">
+                <div class="row">
+                  <div class="col contentPage">
+                    <div class="row">
+                      <div class="col">
+                        <div class="titleDiv">
+                          <div class="title"><h2>Resume</h2></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row rowResum">
+                      <div class="col colResume">
+                        <div class="body-web">
+                          <div class="showQuan">
+                            <div class="row">
+                              <div class="col">
+                                <div class="divQuant">
+                                  <div class="row">
+                                    <div class="col-md-3">
+                                      <i class="bi bi-dot cRed"></i>
+                                    </div>
+                                    <div class="col-md-5">
+                                      <div class="valores">
+                                        <div class="row"><h5>Clinicas</h5></div>
+                                        <div class="row cGrey">
+                                          <h6>325</h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <i
+                                        class="bi bi-bookmark-plus-fill cRed"
+                                      ></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="divQuant">
+                                  <div class="row">
+                                    <div class="col-md-3">
+                                      <i class="bi bi-dot cPurple"></i>
+                                    </div>
+                                    <div class="col-md-5">
+                                      <div class="valores">
+                                        <div class="row">
+                                          <h5>Empleados</h5>
+                                        </div>
+                                        <div class="row cGrey">
+                                          <h6>50</h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <i class="bi bi-person-fill cPurple"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="divQuant">
+                                  <div class="row">
+                                    <div class="col-md-3">
+                                      <i class="bi bi-dot cGreen"></i>
+                                    </div>
+                                    <div class="col-md-5">
+                                      <div class="valores">
+                                        <div class="row"><h5>Equipos</h5></div>
+                                        <div class="row cGrey">
+                                          <h6>200</h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <i class="bi bi-tv-fill cGreen"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col">
+                                <div class="divQuant">
+                                  <div class="row">
+                                    <div class="col-md-3">
+                                      <i class="bi bi-dot cBlue"></i>
+                                    </div>
+                                    <div class="col-md-5">
+                                      <div class="valores">
+                                        <div class="row">
+                                          <h5>Repuestos</h5>
+                                        </div>
+                                        <div class="row cGrey">
+                                          <h6>325</h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <i class="bi bi-gear-fill cBlue"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="divQuant">
+                                  <div class="row">
+                                    <div class="col-md-3">
+                                      <i class="bi bi-dot cOrange"></i>
+                                    </div>
+                                    <div class="col-md-5">
+                                      <div class="valores">
+                                        <div class="row">
+                                          <h5>Historial</h5>
+                                        </div>
+                                        <div class="row cGrey">
+                                          <h6>405</h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <i class="bi bi-calendar3 cOrange"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="divQuant">
+                                  <div class="row">
+                                    <div class="col-md-3">
+                                      <i class="bi bi-dot cPink"></i>
+                                    </div>
+                                    <div class="col-md-5">
+                                      <div class="valores">
+                                        <div class="row"><h5>Reportes</h5></div>
+                                        <div class="row cGrey">
+                                          <h6>170</h6>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <i
+                                        class="bi bi-clipboard-check cPink"
+                                      ></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row rowTables">
+                      <div class="col colTables">
+                        <div class="contentTables">
+                          <div class="row">
+                            <div class="col">
+                              <div class="titleDiv">
+                                <div class="title"><h2>Empleados</h2></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+                              <div class="tables">
+                                <div class="tablesDiv">
+                                  <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Apellido</th>
+                                        <th scope="col">Usuario</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Andres</td>
+                                        <td>Varelo</td>
+                                        <td>@Andvar95</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Ivan</td>
+                                        <td>Peñaranda</td>
+                                        <td>@ivxn96</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Cristian</td>
+                                        <td>Fonseca</td>
+                                        <td>@cfonseca</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Sergio</td>
+                                        <td>Mercado</td>
+                                        <td>@smercado</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Camilo</td>
+                                        <td>Talero</td>
+                                        <td>@ctalero</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
