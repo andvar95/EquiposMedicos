@@ -1,0 +1,53 @@
+.customHeader {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--blue-color-2);
+    color: white;
+    width: 100%;
+  
+}
+
+.logo {
+    padding: 10px 20px;
+}
+
+.customNavbar {
+    margin-top:1%;
+    display: flex;
+   
+   
+}
+
+.customNavbar li {
+    padding: 5px 20px;
+    
+}
+
+.signOut {
+    background-color: white;
+    color: #33A1FD !important;
+    border-radius: 15px;
+}
+.user {
+    padding: 0 5px;
+}
+
+footer {
+    width:100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #33A1FD;
+    color: white;
+}    
+    
+    .mantainItem {
+        border: 1px solid #2176FF;
+        padding-top: 1%;
+    }
+    
+    button {
+        background-color: #2176FF !important;
+    }
+
+    

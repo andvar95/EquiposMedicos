@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hojas de vidas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../assets/css/hojasvidas.css">
+</head>
+
+<body>
+
+    <div class="customHeader">
+        <div class="logo">logo</div>
+        <ul class="customNavbar">
+            <li><a><i class="fas fa-user fa-lg user"></i>User</a></li>
+            <li <a class='signOut'>Cerrar Sesión</a></li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        <!-- start row for show mantains -->
+        <div id="mantains">
+
+        </div>
+        <!-- finish row for show mantains -->
+        <!-- search -->
+        <div class="d-flex flex-row">
+
+
+            <div class="col">
+                <div class="form-group ">
+                    <label for="since">Desde</label>
+                    <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="since">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="form-group ">
+                    <label for="until">Hasta</label>
+                    <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="until">
+                </div>
+            </div>
+
+
+            <div class="col  ">
+                <div class="form-group">
+                    <label for="averia">Filtrar por averia</label>
+                    <input class="form-control" type="search" value="" placeholder='Averia' id="averiaSearch">
+                </div>
+                <button type="button" class="btn btn-success btn-block" id="searchBtn">Buscar</button>
+            </div>
+        </div>
+        <!-- end search -->
+        <!-- mantains -->
+        <div class="listMantains">
+            <!-- d-flex align-items-center -->
+            <div class="row mantainItem rounded-pill  mt-3">
+                <div class="col ">
+                    <img class='imgEquipo rounded-pill' src="../assets/img/homer.jpg" alt="">
+
+                </div>
+                <div class="col ">
+                    <span id="dateMantain"> 01/2/2020</span>
+
+                </div>
+                <div class="col">
+
+                    <span id="nameMantainer"> Edgar lopez</span>
+                </div>
+                <div class="col">
+                    <span id="averia">Bomba</span>
+                </div>
+            </div>
+
+
+            <div class="row mantainItem rounded-pill  mt-3">
+                <div class="col ">
+                    <img class='imgEquipo rounded-pill' src="../assets/img/homer.jpg" alt="">
+
+                </div>
+                <div class="col ">
+                    <span id="dateMantain"> 01/2/2020</span>
+
+                </div>
+                <div class="col">
+
+                    <span id="nameMantainer"> Edgar lopez</span>
+                </div>
+                <div class="col">
+                    <span id="averia">Bomba</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- finish mantains -->
+        <!-- pagination -->
+        <div class="row">
+            <div id="pagination" class="text-center">
+                <a href="#">anterior</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">siguiente</a>
+            </div>
+        </div>
+        <!--finish pagination -->
+    </div>
+    <footer>&copy; Empresa X</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<script src="../assets/js/hojasvidas.js"></script>
+
+</html>
