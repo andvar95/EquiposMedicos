@@ -9,9 +9,10 @@
 }
 
 .navbar-registro {
-    background-color: #33A1FD;
+    background-color:#F8F9FA;
     padding: 0% 5% 5% 5%;
-    color:white;
+    color:#33A1FD;
+    box-shadow: 2px 2px 2px #a1a1a1;
 }
 
 .opcionesRegistro {
@@ -30,25 +31,27 @@
 
 h1{
     float: left;
-    color: white;
+    color: #33A1FD;
 }
 
 .signOut {
-    background-color: white;
-    color: #33A1FD !important;
+    background-color: #33A1FD;
+    color: white !important;
     border-radius: 15px;
 }
 
 .user {
-   color:white;
+   color:#33A1FD;
     padding: 0 5px;
 }
 
 footer {
+    box-shadow: 0px 2px 2px 3px #a1a1a1;
     width:100%;
     position: fixed;
     left: 0;
     bottom: 0;
-    background-color: #33A1FD;
-    color: white;
+    background-color: #F8F9FA;
+    color: #33A1FD;
+    
 }

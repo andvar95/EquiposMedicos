@@ -3,6 +3,7 @@
     --blue-color-1: #2176FF;
     --blue-color-2: #33A1FD;
     --white-color: #FFFFFF;
+    --gray-color:#F8F9FA;
 }
 
 * {
@@ -14,9 +15,10 @@
 .customHeader {
     display: flex;
     justify-content: space-around;
-    background-color: var(--blue-color-2);
-    color: white;
+    background-color: var(--gray-color);
+    color:var(--blue-color-2);
     width: 100%;
+    box-shadow: 2px 2px 2px #a1a1a1;
   
 }
 
@@ -37,8 +39,8 @@
 }
 
 .signOut {
-    background-color: white;
-    color: #33A1FD !important;
+    background-color:  #33A1FD ;
+    color: white !important;
     border-radius: 15px;
 }
 .user {
@@ -78,12 +80,13 @@ ul {
 
 footer {
     z-index:5;
+    box-shadow: 0px 2px 2px 3px #a1a1a1;
     width:100%;
     position: fixed;
     left: 0;
     bottom: 0;
-    background-color: var(--blue-color-2);
-    color: white;
+    background-color: var(--gray-color);
+    color: var(--blue-color-2);
 }
 
 .customModal {

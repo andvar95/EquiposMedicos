@@ -5,7 +5,7 @@ body, html {
 body {
    margin: 0; 
    padding: 0;
-   background: white;
+   background:#33a1fd;
 
    display: flex;
    flex-direction: row;
@@ -18,13 +18,13 @@ body {
 .form-box {
     width: 300px;
     padding: 40px;
-    background: #33a1fd;
+    background: white;
     text-align: center;
     border-radius:10px;
 }
 
 .form-title {
-    color: white;
+    color: #33a1fd;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -38,10 +38,10 @@ body {
     margin: 20px auto;
     padding: 14 px 10px;
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid #33a1fd;;
     width: 200px;
     outline: none;
-    color: white;
+    color: #33a1fd;
     border-radius: 15px;
     transition: 0.25s;
     height:25px;
@@ -61,7 +61,7 @@ body {
     border-radius: 25px;
     color: white;
     width: 200px;
-    height:25px;
+    height:35px;
 }
 
 .form-box button input[type="submit"]:hover {
